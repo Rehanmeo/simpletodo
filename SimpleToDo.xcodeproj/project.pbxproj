@@ -12,6 +12,16 @@
 		9A444EAD21E23EC10010E5DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A444EAB21E23EC10010E5DF /* Main.storyboard */; };
 		9A444EAF21E23EE90010E5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A444EAE21E23EE90010E5DF /* Assets.xcassets */; };
 		9A444EB221E23EE90010E5DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A444EB021E23EE90010E5DF /* LaunchScreen.storyboard */; };
+		9A444EBA21E24E580010E5DF /* todoback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A444EB921E24E3D0010E5DF /* todoback.jpg */; };
+		9A444EBC21E25B380010E5DF /* todologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A444EBB21E25B380010E5DF /* todologo.png */; };
+		9AA3179721E382BC00191093 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3179621E382BB00191093 /* SignupVC.swift */; };
+		9AA3179921E3831100191093 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3179821E3831100191093 /* MainVC.swift */; };
+		9AFFDE7E21E4B1B200C43D6F /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE7D21E4B1B200C43D6F /* profile.jpg */; };
+		9AFFDE8421E4B7B300C43D6F /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE8121E4B7B300C43D6F /* edit.png */; };
+		9AFFDE8521E4B7B300C43D6F /* logout.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE8221E4B7B300C43D6F /* logout.gif */; };
+		9AFFDE8721E4CE3D00C43D6F /* logout_318-138806.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE8621E4CE3D00C43D6F /* logout_318-138806.jpg */; };
+		9AFFDE8921E4D9BF00C43D6F /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE8821E4D9BE00C43D6F /* logout.png */; };
+		9AFFDE8B21E4DDAB00C43D6F /* pencil-case.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFDE8A21E4DDAB00C43D6F /* pencil-case.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		9A444EAE21E23EE90010E5DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A444EB121E23EE90010E5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A444EB321E23EE90010E5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A444EB921E24E3D0010E5DF /* todoback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = todoback.jpg; sourceTree = "<group>"; };
+		9A444EBB21E25B380010E5DF /* todologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todologo.png; sourceTree = "<group>"; };
+		9AA3179621E382BB00191093 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		9AA3179821E3831100191093 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		9AFFDE7D21E4B1B200C43D6F /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		9AFFDE8121E4B7B300C43D6F /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		9AFFDE8221E4B7B300C43D6F /* logout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logout.gif; sourceTree = "<group>"; };
+		9AFFDE8621E4CE3D00C43D6F /* logout_318-138806.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logout_318-138806.jpg"; sourceTree = "<group>"; };
+		9AFFDE8821E4D9BE00C43D6F /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		9AFFDE8A21E4DDAB00C43D6F /* pencil-case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil-case.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +74,10 @@
 		9A444EA621E23EC00010E5DF /* SimpleToDo */ = {
 			isa = PBXGroup;
 			children = (
+				9AFFDE7F21E4B76A00C43D6F /* images */,
 				9A444EA721E23EC10010E5DF /* AppDelegate.swift */,
+				9AA3179621E382BB00191093 /* SignupVC.swift */,
+				9AA3179821E3831100191093 /* MainVC.swift */,
 				9A444EA921E23EC10010E5DF /* ViewController.swift */,
 				9A444EAB21E23EC10010E5DF /* Main.storyboard */,
 				9A444EAE21E23EE90010E5DF /* Assets.xcassets */,
@@ -62,6 +85,22 @@
 				9A444EB321E23EE90010E5DF /* Info.plist */,
 			);
 			path = SimpleToDo;
+			sourceTree = "<group>";
+		};
+		9AFFDE7F21E4B76A00C43D6F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9AFFDE8A21E4DDAB00C43D6F /* pencil-case.png */,
+				9AFFDE8821E4D9BE00C43D6F /* logout.png */,
+				9AFFDE8621E4CE3D00C43D6F /* logout_318-138806.jpg */,
+				9AFFDE8121E4B7B300C43D6F /* edit.png */,
+				9AFFDE8221E4B7B300C43D6F /* logout.gif */,
+				9A444EBB21E25B380010E5DF /* todologo.png */,
+				9AFFDE7D21E4B1B200C43D6F /* profile.jpg */,
+				9A444EB921E24E3D0010E5DF /* todoback.jpg */,
+			);
+			name = images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +162,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A444EB221E23EE90010E5DF /* LaunchScreen.storyboard in Resources */,
+				9AFFDE8421E4B7B300C43D6F /* edit.png in Resources */,
+				9AFFDE8B21E4DDAB00C43D6F /* pencil-case.png in Resources */,
+				9AFFDE7E21E4B1B200C43D6F /* profile.jpg in Resources */,
 				9A444EAF21E23EE90010E5DF /* Assets.xcassets in Resources */,
+				9A444EBA21E24E580010E5DF /* todoback.jpg in Resources */,
+				9AFFDE8721E4CE3D00C43D6F /* logout_318-138806.jpg in Resources */,
+				9AFFDE8921E4D9BF00C43D6F /* logout.png in Resources */,
 				9A444EAD21E23EC10010E5DF /* Main.storyboard in Resources */,
+				9AFFDE8521E4B7B300C43D6F /* logout.gif in Resources */,
+				9A444EBC21E25B380010E5DF /* todologo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA3179721E382BC00191093 /* SignupVC.swift in Sources */,
+				9AA3179921E3831100191093 /* MainVC.swift in Sources */,
 				9A444EAA21E23EC10010E5DF /* ViewController.swift in Sources */,
 				9A444EA821E23EC10010E5DF /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +332,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7FASUTN7;
 				INFOPLIST_FILE = SimpleToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrehanme.SimpleToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +351,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7FASUTN7;
 				INFOPLIST_FILE = SimpleToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrehanme.SimpleToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
